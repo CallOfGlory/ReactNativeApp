@@ -19,6 +19,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-video",
+      "expo-audio",
+      "expo-screen-orientation",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Додаток використовує камеру для керування ліхтариком."
+        }
+      ]
+    ]
   }
 }
